@@ -1,0 +1,20 @@
+<div class= "mx-auto alert alert-primary mx-auto" style="width: 500px;">
+
+
+<h2>Coach's answers</h2>
+
+
+<div>
+<%= @question %>
+<p>- You</p>
+</div>
+
+<div class="alert alert-info">
+<%= @answer %>
+<p>- Coach</p>
+</div>
+
+<div class="p-3 mb-2 bg-danger text-white" class="link-secondary" >
+<%= link_to 'Ask a new question', ask_path %>
+</div>
+</div>
